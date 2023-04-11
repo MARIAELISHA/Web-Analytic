@@ -149,61 +149,75 @@ dataLayer.push({
     ]
   }
 });
-	    dataLayer.push({ ecommerce: null });  // Clear the previous ecommerce object.
-dataLayer.push({
-  event: "purchase",
-  ecommerce: {
-      transaction_id: "T_12345",
-      value: 25.42,
-      tax: 4.90,
-      shipping: 5.99,
-      currency: "USD",
-      coupon: "SUMMER_SALE",
-      items: [
-       {
-        item_id: "SKU_12345",
-        item_name: "Stan and Friends Tee",
-        affiliation: "Google Merchandise Store",
-        coupon: "SUMMER_FUN",
-        discount: 2.22,
-        index: 0,
-        item_brand: "Google",
-        item_category: "Apparel",
-        item_category2: "Adult",
-        item_category3: "Shirts",
-        item_category4: "Crew",
-        item_category5: "Short sleeve",
-        item_list_id: "related_products",
-        item_list_name: "Related Products",
-        item_variant: "green",
-        location_id: "ChIJIQBpAG2ahYAR_6128GcTUEo",
-        price: 9.99,
-        quantity: 1
-      },
-      {
-        item_id: "SKU_12346",
-        item_name: "Google Grey Women's Tee",
-        affiliation: "Google Merchandise Store",
-        coupon: "SUMMER_FUN",
-        discount: 3.33,
-        index: 1,
-        item_brand: "Google",
-        item_category: "Apparel",
-        item_category2: "Adult",
-        item_category3: "Shirts",
-        item_category4: "Crew",
-        item_category5: "Short sleeve",
-        item_list_id: "related_products",
-        item_list_name: "Related Products",
-        item_variant: "gray",
-        location_id: "ChIJIQBpAG2ahYAR_6128GcTUEo",
-        price: 20.99,
-        promotion_id: "P_12345",
-        promotion_name: "Summer Sale",
-        quantity: 1
-      }]
-  }
-});
+	       
+	</script>
+
+    <title>Contact Page</title>
+</head>
+
+<body>
+	<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-PQ6R2W5"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+    <!-- navbar -->
+    
+    <!-- navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark custom-nav fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="#">MDS</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mr-auto mb-2 mb-lg-0">
+                    
+                    <li class="nav-item">
+                        <a class="nav-link" aria-current="page" href="index.html" id="index">Home</a>
+                    </li>
+
+
+                    <li class="nav-item">
+                        <a class="nav-link active" href="contact.html" id="contact">Contact</a>
+                    </li>
+
+                    
+                </ul>
+          </div>
+	</nav>	
+
+
+<div>newlinw</div><div>newlinw</div><div> ,</div>
+<p>
+
+&emsp;  &emsp;  <img src="img/1.jpg" width="500" height="200">
+</p>
+
+&emsp;  &emsp;  &emsp;  &emsp;  <button id="btncart1"><a href="cart.html" id="btncart12" style="font: bold 24px Arial; color:red;">Add-to-cart</a></button> &emsp;  &emsp;  			 
+<button type="button" style="font: bold 24px  Arial; color:green;"><a href="sucess.html">Purchase</a></button><br />
+	     $(document).ready(function () {
+            $('#review-slider-content').lightSlider({
+                auto: true,
+                loop: true,
+                responsive: [{
+                        breakpoint: 800,
+                        settings: {
+                            item: 3,
+                            slideMove: 1,
+                            slideMargin: 6,
+                        }
+                    },
+                    {
+                        breakpoint: 480,
+                        settings: {
+                            item: 1,
+                            slideMove: 1
+                        }
+                    }
+                ]
+            });
+        });
 	     dataLayer.push({ ecommerce: null });  // Clear the previous ecommerce object.
 dataLayer.push({
   event: "purchase",
@@ -259,51 +273,7 @@ dataLayer.push({
 });
 	    
 	</script>
-
-    <title>Contact Page</title>
-</head>
-
-<body>
-	<!-- Google Tag Manager (noscript) -->
-<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-PQ6R2W5"
-height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
-<!-- End Google Tag Manager (noscript) -->
-    <!-- navbar -->
-    
-    <!-- navbar -->
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark custom-nav fixed-top">
-        <div class="container">
-            <a class="navbar-brand" href="#">MDS</a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
-                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav mr-auto mb-2 mb-lg-0">
-                    
-                    <li class="nav-item">
-                        <a class="nav-link" aria-current="page" href="index.html" id="index">Home</a>
-                    </li>
-
-
-                    <li class="nav-item">
-                        <a class="nav-link active" href="contact.html" id="contact">Contact</a>
-                    </li>
-
-                    
-                </ul>
-          </div>
-	</nav>	
-
-
-<div>newlinw</div><div>newlinw</div><div> ,</div>
-<p>
-
-&emsp;  &emsp;  <img src="img/1.jpg" width="500" height="200">
-</p>
-
-&emsp;  &emsp;  &emsp;  &emsp;  <button id="btncart1"><a href="cart.html" id="btncart12" style="font: bold 24px Arial; color:red;">Add-to-cart</a></button> &emsp;  &emsp;  			 
-<button type="button" style="font: bold 24px  Arial; color:green;"><a href="sucess.html">Purchase</a></button><br />
+	    
 </br></br>
 <p>
 &emsp;  &emsp;  <img src="img/2.jfif" width="500" height="200">
@@ -311,6 +281,87 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
 &emsp;  &emsp;  &emsp;  &emsp;  <button id="btncart"><a href="cart.html" style="font: bold 24px Arial; color:red;">Add-to-cart</a></button> &emsp;  &emsp;  			 
 <button type="button" style="font: bold 24px  Arial; color:green;"><a href="sucess.html" id="btncart1">Purchase</a></button><br />
+	  <script>
+        $(document).ready(function () {
+            $('#review-slider-content').lightSlider({
+                auto: true,
+                loop: true,
+                responsive: [{
+                        breakpoint: 800,
+                        settings: {
+                            item: 3,
+                            slideMove: 1,
+                            slideMargin: 6,
+                        }
+                    },
+                    {
+                        breakpoint: 480,
+                        settings: {
+                            item: 1,
+                            slideMove: 1
+                        }
+                    }
+                ]
+            });
+        });
+		   dataLayer.push({ ecommerce: null });  // Clear the previous ecommerce object.
+dataLayer.push({
+  event: "purchase",
+  ecommerce: {
+      transaction_id: "T_12345",
+      value: 25.42,
+      tax: 4.90,
+      shipping: 5.99,
+      currency: "USD",
+      coupon: "SUMMER_SALE",
+      items: [
+       {
+        item_id: "SKU_12345",
+        item_name: "Stan and Friends Tee",
+        affiliation: "Google Merchandise Store",
+        coupon: "SUMMER_FUN",
+        discount: 2.22,
+        index: 0,
+        item_brand: "Google",
+        item_category: "Apparel",
+        item_category2: "Adult",
+        item_category3: "Shirts",
+        item_category4: "Crew",
+        item_category5: "Short sleeve",
+        item_list_id: "related_products",
+        item_list_name: "Related Products",
+        item_variant: "green",
+        location_id: "ChIJIQBpAG2ahYAR_6128GcTUEo",
+        price: 9.99,
+        quantity: 1
+      },
+      {
+        item_id: "SKU_12346",
+        item_name: "Google Grey Women's Tee",
+        affiliation: "Google Merchandise Store",
+        coupon: "SUMMER_FUN",
+        discount: 3.33,
+        index: 1,
+        item_brand: "Google",
+        item_category: "Apparel",
+        item_category2: "Adult",
+        item_category3: "Shirts",
+        item_category4: "Crew",
+        item_category5: "Short sleeve",
+        item_list_id: "related_products",
+        item_list_name: "Related Products",
+        item_variant: "gray",
+        location_id: "ChIJIQBpAG2ahYAR_6128GcTUEo",
+        price: 20.99,
+        promotion_id: "P_12345",
+        promotion_name: "Summer Sale",
+        quantity: 1
+      }]
+  }
+});
+		  </script>
+		  
+		  
 
 </body>
 
